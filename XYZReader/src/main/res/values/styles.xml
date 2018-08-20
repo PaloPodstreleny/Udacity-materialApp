@@ -24,4 +24,47 @@
     </style>
 
 
+    <style name="BlackText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="PrimaryText" parent="BlackText">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+    </style>
+
+    <style name="GreyText">
+        <item name="android:textSize">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="SecondaryText" parent="GreyText">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+    </style>
+
+
+    <style name="HeadingText">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+    </style>
+
+    <style name="ListItemHeading" parent="HeadingText">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:background">@color/listItemBackground</item>
+        <item name="android:paddingLeft">@dimen/inner_medium_padding</item>
+        <item name="android:paddingRight">@dimen/inner_medium_padding</item>
+        <item name="android:paddingTop">@dimen/inner_medium_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="ListItemText" parent="SecondaryText">
+        <item name="android:paddingLeft">@dimen/inner_medium_padding</item>
+        <item name="android:paddingRight">@dimen/inner_medium_padding</item>
+        <item name="android:paddingBottom">@dimen/inner_medium_padding</item>
+        <item name="android:paddingTop">@dimen/inner_basic_padding</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@color/listItemBackground</item>
+        <item name="android:textColor">@color/colorTextListItem</item>
+    </style>
+
+
 </resources>
