@@ -63,7 +63,7 @@ public class ArticleDetailActivity extends AppCompatActivity
 
             @Override
             public void onPageSelected(int position) {
-                if (mCursor != null){
+                if (mCursor != null) {
                     mCursor.moveToPosition(position);
                 }
                 mSelectedItemId = mCursor.getLong(ArticleLoader.Query._ID);
@@ -75,6 +75,7 @@ public class ArticleDetailActivity extends AppCompatActivity
                 mUpButton.animate()
                         .alpha((state == ViewPager.SCROLL_STATE_IDLE) ? 1f : 0f)
                         .setDuration(300);
+
             }
         });
 

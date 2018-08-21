@@ -10,14 +10,18 @@
     <dimen name="fab_size">56dp</dimen>
 
     <dimen name="element_margin_medium">0dp</dimen>
-    <dimen name="appbar_bigger">120dp</dimen>
+    <dimen name="appbar_normal">56dp</dimen>
     <dimen name="secondary_text_size">12sp</dimen>
     <dimen name="primary_text_size">16sp</dimen>
     <dimen name="heading_text_size">20sp</dimen>
+
+    <dimen name="photo_container_elevation">2dp</dimen>
 
     <dimen name="inner_small_padding">4dp</dimen>
     <dimen name="inner_basic_padding">8dp</dimen>
     <dimen name="inner_medium_padding">16dp</dimen>
     <dimen name="list_item_top_margin">4dp</dimen>
+
+    <dimen name="arrow_width">56dp</dimen>
 
 </resources>

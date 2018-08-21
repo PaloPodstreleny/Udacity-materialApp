@@ -18,8 +18,6 @@
 <resources>
 
     <color name="ltgray">#ffe0e0e0</color>
-
-
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorPrimary">#2196F3</color>
     <color name="colorAccent">#FF4081</color>
@@ -29,4 +27,5 @@
     <color name="colorTextWhite">#fff</color>
     <color name="colorSecondaryText">#757575</color>
     <color name="colorTextListItem">#BDBDBD</color>
+    <color name="colorDetailTextPanel">#FFF</color>
 </resources>
