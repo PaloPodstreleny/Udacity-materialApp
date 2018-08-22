@@ -50,9 +50,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
-
         mSwipeRefreshLayout = findViewById(R.id.swipe_refresh_layout);
-
         mRecyclerView = findViewById(R.id.recycler_view);
         getSupportLoaderManager().initLoader(0, null, this);
 
